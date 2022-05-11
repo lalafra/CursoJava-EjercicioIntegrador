@@ -1,0 +1,21 @@
+.box-des{
+ padding-top: 130px;
+}
+
+.btn-none{
+    text-decoration: none;
+}
+
+.total{
+    background-color: #CCE5FF;
+    color:#6b7ea3;
+}
+
+.bg-oliva-t{
+    width: 100%;
+    height: 55px;
+    background-color: #96C93E;
+    color: white;
+    font-size: 1.2rem;
+}
+
