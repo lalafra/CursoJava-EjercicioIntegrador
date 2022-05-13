@@ -1,7 +1,6 @@
 var precio = 0;
 const valorEntrada = 200;
 
-
 window.addEventListener("DOMContentLoaded", function() {
     resumen = document.getElementById('resumen');
     resumen.addEventListener('click',mostrarResumen);
@@ -25,11 +24,9 @@ function mostrarResumen(){
         case 'Junior':
             precio = valorEntrada*(1-0.15).toFixed(2)*cantidad;
             break;
-        default:
-            precio = 0;
-            break;
     }
-    document.getElementById('total').innerHTML = precio;
+
+   document.getElementById('total').innerHTML = precio;
 }
 
 function borrarForm(){
